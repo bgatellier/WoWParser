@@ -1,0 +1,81 @@
+﻿body {
+	margin: 0px;
+	font-family: Verdana, Helvetica, sans-serif;
+	margin-top: 30px;
+	margin-bottom: 30px;
+	font-size: 1.0em;
+	background-color: #DDD;
+	letter-spacing: 0px;
+}
+ul#menu {
+	width: 80%;
+	margin-right: auto;
+	margin-left: auto;
+	margin-bottom: 4px;
+	margin-top: 0px;
+	padding: 10px;
+	list-style-type: none;
+}
+ul#menu li{
+	display: inline;
+	font-size: 0.8em;
+	border: solid thin #999;
+	padding: 0px;
+	padding-left: 8px;
+	padding-right: 8px;
+	padding-top: 6px;
+	padding-bottom: 8px;
+	margin-right: 4px;
+	background-color: #EEE;
+	font-size: 0.7em;
+}
+ul#menu li select{
+	vertical-align: middle;
+}
+ul#menu li:hover{
+	background-color: #ABC2EA;
+}
+ul#menu li a{
+	text-decoration: none;
+	color: #04569A;
+}
+ul#menu li a:hover{
+	text-decoration: underline;
+}
+#form_patchnote, #patch {
+	width: 80%;
+	border: solid thin #999;
+	background-color: #EEE;
+	margin-right: auto;
+	margin-left: auto;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	padding: 0px;
+	font-size: 0.7em;
+}
+#form_patchnote {
+	margin-bottom: 50px;
+}
+#form_patchnote p {
+	text-align: center;
+	margin: 0px;
+	padding: 6px;
+	color: #04569A;
+	font-weight: bold;
+}
+#form_patchnote p acronym {
+	cursor: help;
+}
+#form_patchnote p#loading_bar {
+	display: none;
+}
+#patchnote {
+	padding: 10px;
+	height: 500px;
+	overflow: auto;
+}
+#patchnote .patch h4 {
+	margin-bottom: 10px;
+	margin-top: 0px;
+	font-size: 1.1em;
+}
